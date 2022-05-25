@@ -27,7 +27,8 @@
     }
     else{
 ?>
-<a href="login.php">Вход</a>
+<a href="login.php">Вход</a>|
+<a href="singup.php">Регистация</a>
 <?php
     }
 ?>
