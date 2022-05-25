@@ -4,7 +4,7 @@ include "db.php";
 if (!empty($_POST)) {
     $user = $_POST['user'];
     $password = $_POST['pass'];
-    $type = $_POST['type'];
+    $type = "client";
     $query = "INSERT INTO users (user, password, type) 
                 VALUES ('$user','$password','$type')";
     if (mysqli_query($link, $query))
@@ -43,10 +43,6 @@ if (!empty($_POST)) {
                         <tr>
                             <td>Парола</td>
                             <td><input type="password" name="pass" style="width:200px;"></td>
-                        </tr>
-                        <tr>
-                            <td>Тип</td>
-                            <td><input type="text" name="type" style="width:200px;"></td>
                         </tr>
                         <tr>
 
