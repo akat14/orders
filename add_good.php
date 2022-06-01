@@ -38,11 +38,11 @@ if(!empty($_POST))
                 <form method = "POST" action = "add_good.php">
                 <table border = "1">
                     <tr>
-                        <th>Име на Стоката</th>
+                        <th><div>Име на Стоката</div></th>
                         <th><input type="text" name = "name"></th>
                     </tr>
                     <tr>
-                        <th>Цена</th>
+                        <th><div>Цена</div></th>
                         <th><input type="text" name = "price"></th>
                     </tr>
 			<th></th>

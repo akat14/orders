@@ -10,7 +10,7 @@ if (!empty($_POST)) {
     if (!empty($user_data) && $user_data['password'] === $password) {
         $_SESSION['user'] = $user_data['user'];
         $_SESSION['type'] = $user_data['type'];
-	$_SESSION['id'] = $user_data['id'];
+		$_SESSION['id'] = $user_data['id'];
         session_write_close();
         header("location: index.php");
         exit();
@@ -42,11 +42,11 @@ if (!empty($_POST)) {
                 <form action="login.php" method="POST">
                     <table border="1" align="center" style="border:1px solid #000000;">
                         <tr>
-                            <td>Потребител</td>
+                            <td><div>Потребител</div></td>
                             <td><input type="text" name="user" style="width:200px;"></td>
                         </tr>
                         <tr>
-                            <td>Парола</td>
+                            <td><div>Парола</div></td>
                             <td><input type="password" name="pass" style="width:200px;"></td>
                         </tr>
                         <tr>

@@ -12,11 +12,6 @@ session_start();
 </head>
 
 <body>
-<?php
-echo '<pre>';
-print_r($_POST);
-echo '</pre>';
-?>
     <div id="main">
         <?php include "menu.php" ?>
         <div id="content">

@@ -38,11 +38,11 @@ if(!empty($_POST))
                 <form method = "POST" action = "add_order.php">
                 <table border = "1">
                     <tr>
-                        <th>ID на клиента</th>
+                        <th><div>ID на клиента</div></th>
                         <th><input type="text" name = "client_id"></th>
                     </tr>
                     <tr>
-                        <th>ID на стоката</th>
+                        <th><div>ID на стоката</div></th>
                         <th><input type="text" name = "good_id"></th>
                     </tr>
 			<th></th>
